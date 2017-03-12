@@ -1,0 +1,25 @@
+* { padding: 0; margin: 0; }
+html { background: white; }
+body { background: #F5F5F5; width: 600px; height: auto; margin-left: auto; margin-right: auto; padding-bottom: 10px; }
+#header .banner { width: 100%; }
+.slogan { text-align: center; width: 100%; font-size: larger; }
+#container .slogan { color: red; margin-top: 15px; }
+#container .slogan .price { width:60px; height: 30px; color: transparent; background: url("../images/100-yuan.png") no-repeat; background-size: 53px 22px; }
+#container .feature { width: 480px; height: 80px; margin-left: auto; margin-right: auto;  background: white; border-radius: 10px; margin-top: 20px; overflow: hidden; }
+#container .feature ul { list-style: none;  width: 580px; height: 80px; margin-left: -50px; padding-left: 0; }
+#container .feature ul li { float: left; width: 190px; height: 30px; background: url(../images/check-cube.png) no-repeat; padding-left: 30px; margin-left: 65px; background-size: 20px 20px; font-size: larger; margin-top: 10px; }
+#container .feature ul li .number-unit { color: limegreen; font-style: normal; }
+#container .form-information { width: 480px; margin-top: 30px; margin-left: auto; margin-right: auto; text-align: center; }
+#container .form-information form input,select { border: 1px solid darkgrey; border-radius: 4px; font-size: large; padding: 5px; }
+#container .form-information form .form-item { margin-top: 10px; width: 480px; }
+#container .form-information form .data-info input { width: 468px; display: inline-block; }
+#container .form-information form .date-hint { color: darkgrey;
+    /*float: right;*/
+    position: relative; top: 25px; left: 200px;
+}
+#container .form-information form .select { margin-top: 20px; }
+#container .form-information form .select select { width: 220px; margin-right: 0; margin-left: 0; background: white; }
+#container .form-information form .select .grade { float: left; }
+#container .form-information form .select .subject { float: right; }
+#container .form-information form .submit input { width: 480px; background: limegreen; color: white; margin-top: 40px; }
+#footer .slogan { margin-top: 50px; line-height: 30px; color: green; }
